@@ -46,7 +46,7 @@ module.exports = {
     if (creep.memory.delivering && creep.store.energy == 0) {
       creep.memory.delivering = false;
     }
-    if (!creep.memory.delivering && creep.store.energy > 0) {
+    if (!creep.memory.delivering && creep.store.energy == creep.store.getCapacity()) {
       creep.memory.delivering = true;
     }
 

@@ -12,10 +12,7 @@
   "main": "dist/main.js",
   "repository": "ScreepsQuorum/screeps-quorum",
   "scripts": {
-    "uploadMax": "grunt screeps --user=max",
-    "uploadMxx": "grunt screeps --user=mxx",
-    "uploadDis": "grunt screeps --user=dis",
-    "uploadDan": "grunt screeps --user=dan",
+    "uploadDiCrose": "grunt screeps --user=DiCrose",
     "local": "grunt private",
     "prettier": "prettier --write ./src"
   },
